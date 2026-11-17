@@ -1,0 +1,180 @@
+/*reset*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tag Gerais*/
+
+header {
+   text-align: center;
+   padding: 10px 0;
+   /*primeiro parametro superior e inferior, segundo parametro esquerdo e direito */
+   background-image: url(../img/fundo-topo.jpg);
+}
+
+
+header h1 img {
+   margin: 0;
+   height: 84px;
+}
+
+nav {
+   text-align: center;
+   padding: 15px 0;
+   background-color: #fff;
+   /* Alinha as opções do menu */
+}
+
+nav a {
+   color: #000;
+   text-decoration: none;
+   font-weight: bold;
+   transition: color 0.3s ease;
+}
+
+nav li {
+   display: inline;
+   /*border:1px solid blue; */
+   padding-right: 27px;
+   /* espaçamento interno */
+   margin-right: 10px;
+   /*espacamento externo*/
+   background-image: url(../img/patinha-preta.png);
+   background-repeat: no-repeat;
+   background-position: center right;
+   list-style: none;
+}
+
+nav a:hover {
+   color: #000;
+   text-decoration: none;
+   }
+form{
+   width: 380px;
+}
+form input,form textarea{
+   width: 100%;
+   padding: 10px;
+   margin: top 5px;
+   margin-bottom: 5px;
+   border-radius: 3px;
+   border: 1px solid #6dd432;
+}
+iframe{
+   width: 100%;
+}
+h2{
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+/*#IDs*/
+#item_marg {
+   margin-bottom: 20px;
+}
+
+#item_Contato {
+   background-image: none;
+}
+
+#Produto .flex-container, #contato .flex-conteiner {
+   margin-top: 43px;
+
+}
+
+/* class´s */
+.fundo-verde {
+   background-color: #bdff9c;
+}
+
+.conteiner {
+   width: 900px;
+   margin: 0 auto;
+   padding: 56px 0;
+}
+
+.flex-conteiner {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 30px;
+   }
+
+.produto {
+   width: 235px;
+   text-align: center;
+   background-color: #fff;
+   padding: 15px;
+   border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+
+.produto figure {
+   border: 1px solid #c4c4c4;
+   background-color: #fff;
+   text-align: center;
+   margin: 15px 0 0 0;
+   /*topo direita rodapé e esquerda*/
+   height: 160px;
+   line-height: 160px;
+   /*altura da linha*/
+   overflow: hidden;
+    border-radius: 5px;
+}
+
+.produto p {
+    margin-bottom: 15px;
+}
+.produto figure img {
+   vertical-align: middle;
+   max-height: 150px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.texto-centralizado {
+   text-align: center;
+}
+
+.btn-pata {
+   border: 1px solid #91e467;
+   background-color: #d2fbbd;
+   display: inline-block;
+   padding: 10px 20px;
+   text-decoration: none;
+   color: #000;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.flex-container {
+   width: 430px;
+}
+
+h2 {
+   text-transform: uppercase;
+   margin-bottom: 15px;
+}
+
+.col {
+   flex: 1;
+   min-width: 280px;
+}
+
+.col img1 {
+   display: block;
+   margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #bccae5;
+  color: rgb(30, 2, 75);
+  font-family: Arial, Helvetica, sans-serif;
+}
+

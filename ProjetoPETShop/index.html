@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto PetShop Mary & Gabi </title>
+    <link rel="stylesheet" href="projetopetshop.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1> <img src="img/logo-mari-e-gabi-petshop.svg" alt="logo-mari-e-gabi-petshop"> </h1>
+        </div>
+    </header>
+    <nav>
+        <div>
+            <ul>
+                <li> <a href="#sobre">Sobre</a></li>
+                <li> <a href="#produto">Produtos</a></li>
+                <li> <a href="#servico">Serviços</a></li>
+                <li id="itemContato"><a href="contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!--Sobre Nós -->
+        <section class="fundo-verde" id="Sobre">
+            <div class="conteiner flex-conteiner">
+                <div class="col">
+                    <h2> Sobre Nós </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis, maxime veritatis placeat
+                        repellat magni dolorum enim sint ratione iusto cumque quis totam quae reiciendis beatae eligendi
+                        quasi praesentium debitis!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis ratione maxime iure.
+                        Est sit non illo quidem numquam, omnis molestiae dignissimos perferendis, obcaecati dolore dicta
+                        ad tenetur officia nostrum?</p>
+                </div>
+                <div class="col">
+                    <img src="img/img-sobre.jpg" alt="imagem dos filhotes">
+                </div>
+            </div>
+        </section>
+        <!-- Fechamento Sobre Nós -->
+        <!--Produto -->
+        <section id="produto">
+            <div class="conteiner">
+                <h2 class="texto-centralizado">Produtos</h2>
+                <p class="texto-centralizado">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
+                    voluptatem mollitia cum impedit aliquam doloribus esse tempora ratione voluptate, alias aut adipisci
+                    ea ipsa, iste magnam reiciendis dicta quisquam quidem.
+                </p>
+                <div class="flex-conteiner">
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-1.jpg" alt="shampoo para cachorro">
+                        </figure>
+                        <h3> Pet Produto#1</h3>
+                        <p> R$ 150,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="shampoo para cachorro">
+                            Comprar
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-2.jpg" alt=" casinha para cachorro">
+                        </figure>
+                        <h3> Pet Produto#2</h3>
+                        <p> R$ 150,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="casinha para cachorro">
+                            Comprar
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <figure>
+                            <img src="img/produto-3.jpg" alt="pratinho para cachorro">
+                        </figure>
+                        <h3> Pet Produto#3</h3>
+                        <p> R$ 150,00</p>
+                        <a href="#" class="btn-pata">
+                            <img src="img/patinha-preta.png" alt="pratinho para cachorro">
+                            Comprar
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Fechamento Produto -->
+        <!-- Abertura Serviços -->
+        <section class="fundo-verde" id="Serviços">
+            <div class="conteiner flex-conteiner">
+                <div class="col">
+                    <h2> Serviços </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est omnis, maxime veritatis placeat
+                        repellat magni dolorum enim sint ratione iusto cumque quis totam quae reiciendis beatae eligendi
+                        quasi praesentium debitis! </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis ratione maxime iure.
+                        Est sit non illo quidem numquam, omnis molestiae dignissimos perferendis, obcaecati dolore dicta
+                        ad tenetur officia nostrum? </p>
+                </div>
+                <div class="col">
+                    <img src="img/img-galeria-1.jpg" alt="filhotes">
+                    <img src="img/img-galeria-2.jpg" alt="filhotes">
+                    <img src="img/img-galeria-3.jpg" alt="filhotes">
+                    <img src="img/img-galeria-4.jpg" alt="filhotes">
+                </div>
+            </div>
+        </section>
+        <!-- Fechamento Serviços -->
+        <!-- Formulário -->
+        <section>
+            <div class="conteiner">
+                <div class="texto-centralizado">
+                    <h2 class="texto-centralizado">Contato</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione aut vero hic, magni
+                        necessitatibus consequatur suscipit. Corrupti excepturi recusandae labore quod perferendis.
+                        Veritatis iure, reprehenderit ipsam excepturi ipsum laboriosam cum?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione aut vero hic, magni
+                        necessitatibus consequatur suscipit. Corrupti excepturi recusandae labore quod perferendis.
+                        Veritatis iure, reprehenderit ipsam excepturi ipsum laboriosam cum?</p>
+                </div>
+                <div class="flex-conteiner">
+                    <div class="col">
+                        <form action="">
+                            <label for="name">
+                                <strong>Nome:</strong>
+                                <input type="text" id="name" placeholder="Insira o seu nome completo">
+                            </label>
+                            <label for="email">
+                                <strong>E-mail:</strong>
+                                <input type="email" id="email" placeholder="Exemplo@teste.com.br">
+                            </label>
+                            <label for="tele">
+                                <strong>Telefone:</strong>
+                                <input type="tel" id="tele" placeholder="(11)0000-0000">
+                            </label>
+                            <label for="ass">
+                                <strong>Assunto:</strong>
+                                <input type="text" id="ass" placeholder="Insira o assunto da mensagem" maxlength="30">
+                            </label>
+                            <label for="msg">
+                                <strong>mensagem:</strong>
+                                <textarea name="msg" id="msg" rows="10"
+                                    placeholder="insira aqui sua sugestão"></textarea>
+                            </label>
+                            <div>
+                            <button class="btn-pata">
+                                <img src="img/patinha-preta.png" alt="patinha preta">
+                                Enviar
+                            </button>
+                        </div>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.3835836754324!2d-46.76851652483812!3d-23.69799227870622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5212f9627de5%3A0x1c5ccd29c1a3e96a!2sEtec%20Jardim%20%C3%82ngela!5e0!3m2!1spt-BR!2sbr!4v1793322434819!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                        <p>Endereço: Estrada da Baronesa,1695 - Jd Nakamura, São Ppaulo / SP <br>
+                        <strong>CEP:</strong>04941-175 <br>
+                    <strong>TEL:</strong>(11)6666-7777</p>
+                    </div>
+                </div>
+                <!-- div flex-conteiner -->
+            </div>
+            <!-- div conteiner  -->
+        </section>
+        <!-- fechamento Formulário -->
+    </main>
+    <!-- Abertura do rodape -->
+     
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 PetShop Mary & Gabi. Todos os direitos reservados.</p>
+            <ul class="footer-links">
+                <li><a href="https://github.com/miguelsantos739/pet-shop-mary-gaby.git" target="_blank">Git & Github</a></li>
+                <li><a href="file:///c%3A/Users/ninis/OneDrive/%C3%81rea%20de%20Trabalho/PWI/ProjetoPETshop/index.html" target="_blank">Imagem do Projeto</a></li>
+            </ul>
+        </div>
+    </footer>
+    </body>
+</html>
